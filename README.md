@@ -29,13 +29,13 @@ o	lower_bound_: Log-likelihood at the end of EM iterations.
 
 __Project Tasks__
 
-1. Estimation from Generated Data
+1. Estimation from Generated Data  
 We start with one-dimensional data to understand GMM estimation. The tasks include generating sample data, applying GMM with different numbers of components, and visualizing the results.
-2. Two-Dimensional Data Estimation
+2. Two-Dimensional Data Estimation  
 The project extends to two-dimensional data, where we generate samples and estimate the GMM parameters. Visualization includes 3D plotting of the estimated density surface.
-3. Model Selection with AIC and BIC
+3. Model Selection with AIC and BIC  
 We compare the AIC and BIC criteria to choose the optimal number of components for two-dimensional data. This involves plotting normalized values of these criteria for different numbers of components.
-4. Applying GMM to Real Data
+4. Applying GMM to Real Data  
 We apply GMM to real-world data, such as 'textures' data, projected onto the first two principal axes using PCA. This includes constructing the GMM, verifying convergence, and visualizing the estimated density.
-5. Further Analysis
+5. Further Analysis  
 We also explore the stability of the partitions using the adjusted Rand index and apply Gaussian mixture density estimation to the 'textures' data projected onto the first two discriminant axes using LDA.
