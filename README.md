@@ -3,6 +3,7 @@ __Project Description__
 This repository focuses on understanding the use of Gaussian Mixture Models (GMM) for estimating mixture models, with a particular emphasis on choosing the number of components and the type of covariance matrix. The project involves both theoretical understanding and practical implementation using Scikit-learn functionalities.
 
 __Core Components__
+
 __1. Gaussian Mixture Models (GMM)__
 GMM is a probabilistic model for representing the presence of subpopulations within an overall population. It assumes that all data points are generated from a mixture of several Gaussian distributions with unknown parameters.  
 __2. Model Selection__  
