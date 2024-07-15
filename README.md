@@ -31,12 +31,12 @@ o	lower_bound_: Log-likelihood at the end of EM iterations.
 __Project Tasks__
 
 __1. Estimation from Generated Data__  
-We start with one-dimensional data to understand GMM estimation. The tasks include generating sample data, applying GMM with different numbers of components, and visualizing the results.
+We start with one-dimensional data to understand GMM estimation. The tasks include generating sample data, applying GMM with different numbers of components, and visualizing the results.  
 __2. Two-Dimensional Data Estimation__  
-The project extends to two-dimensional data, where we generate samples and estimate the GMM parameters. Visualization includes 3D plotting of the estimated density surface.
+The project extends to two-dimensional data, where we generate samples and estimate the GMM parameters. Visualization includes 3D plotting of the estimated density surface.  
 __3. Model Selection with AIC and BIC__  
-We compare the AIC and BIC criteria to choose the optimal number of components for two-dimensional data. This involves plotting normalized values of these criteria for different numbers of components.
+We compare the AIC and BIC criteria to choose the optimal number of components for two-dimensional data. This involves plotting normalized values of these criteria for different numbers of components.  
 __4. Applying GMM to Real Data__  
-We apply GMM to real-world data, such as 'textures' data, projected onto the first two principal axes using PCA. This includes constructing the GMM, verifying convergence, and visualizing the estimated density.
+We apply GMM to real-world data, such as 'textures' data, projected onto the first two principal axes using PCA. This includes constructing the GMM, verifying convergence, and visualizing the estimated density.  
 __5. Further Analysis__  
-We also explore the stability of the partitions using the adjusted Rand index and apply Gaussian mixture density estimation to the 'textures' data projected onto the first two discriminant axes using LDA.
+We also explore the stability of the partitions using the adjusted Rand index and apply Gaussian mixture density estimation to the 'textures' data projected onto the first two discriminant axes using LDA.  
