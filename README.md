@@ -6,27 +6,29 @@ __Core Components__
 __1. Gaussian Mixture Models (GMM)__
 GMM is a probabilistic model for representing the presence of subpopulations within an overall population. It assumes that all data points are generated from a mixture of several Gaussian distributions with unknown parameters.  
 __2. Model Selection__  
-Model selection involves choosing the number of mixture components and the type of covariance matrix. This can be done using the Akaike Information Criterion (AIC) or the Bayesian Information Criterion (BIC).
+Model selection involves choosing the number of mixture components and the type of covariance matrix. This can be done using the Akaike Information Criterion (AIC) or the Bayesian Information Criterion (BIC).  
 Key parameters include:  
 •	n_components: Number of mixture components.  
 •	covariance_type: Type of covariance matrix ('full', 'tied', 'diag', 'spherical').  
 •	init_params: Method of parameter initialization ('kmeans', 'random').  
 •	n_init: Number of initializations.  
 
-3. Key Methods and Attributes
-•	Methods:
-o	fit(X): Compute the GMM parameters based on the data.
-o	aic(X): Calculate AIC for the model.
-o	bic(X): Calculate BIC for the model.
-o	predict(X): Predict the labels for the data.
-o	score_samples(X): Evaluate the log-likelihood of the data.
-•	Attributes:
-o	weights_: Mixture coefficients.
-o	means_: Mean of each component.
-o	covariances_: Covariance of each component.
-o	converged_: Indicates if the EM algorithm has converged.
-o	lower_bound_: Log-likelihood at the end of EM iterations.
-Project Tasks
+__3. Key Methods and Attributes__
+__•	Methods:__
+o	fit(X): Compute the GMM parameters based on the data.  
+o	aic(X): Calculate AIC for the model.  
+o	bic(X): Calculate BIC for the model.  
+o	predict(X): Predict the labels for the data.  
+o	score_samples(X): Evaluate the log-likelihood of the data.  
+__•	Attributes:__  
+o	weights_: Mixture coefficients.  
+o	means_: Mean of each component.  
+o	covariances_: Covariance of each component.  
+o	converged_: Indicates if the EM algorithm has converged.  
+o	lower_bound_: Log-likelihood at the end of EM iterations.  
+
+__Project Tasks__
+
 1. Estimation from Generated Data
 We start with one-dimensional data to understand GMM estimation. The tasks include generating sample data, applying GMM with different numbers of components, and visualizing the results.
 2. Two-Dimensional Data Estimation
