@@ -7,11 +7,12 @@ __1. Gaussian Mixture Models (GMM)__
 GMM is a probabilistic model for representing the presence of subpopulations within an overall population. It assumes that all data points are generated from a mixture of several Gaussian distributions with unknown parameters.  
 __2. Model Selection__  
 Model selection involves choosing the number of mixture components and the type of covariance matrix. This can be done using the Akaike Information Criterion (AIC) or the Bayesian Information Criterion (BIC).
-Key parameters include:
-•	n_components: Number of mixture components.
-•	covariance_type: Type of covariance matrix ('full', 'tied', 'diag', 'spherical').
-•	init_params: Method of parameter initialization ('kmeans', 'random').
-•	n_init: Number of initializations.
+Key parameters include:  
+•	n_components: Number of mixture components.  
+•	covariance_type: Type of covariance matrix ('full', 'tied', 'diag', 'spherical').  
+•	init_params: Method of parameter initialization ('kmeans', 'random').  
+•	n_init: Number of initializations.  
+
 3. Key Methods and Attributes
 •	Methods:
 o	fit(X): Compute the GMM parameters based on the data.
